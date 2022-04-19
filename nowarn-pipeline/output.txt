@@ -1,0 +1,14 @@
+  Wiederherzustellende Projekte werden ermittelt...
+  Alle Projekte sind fr die Wiederherstellung auf dem neuesten Stand.
+C:\Users\dennis\source\repos\CSharp\NoWarn\NoWarn\NoWarnTests.cs(10,14): warning CS8509: Der switch-Ausdruck verarbeitet nicht alle m”glichen Werte des zugeh”rigen Eingabetyps (nicht umfassender Ausdruck). Das Muster """" wird beispielsweise nicht abgedeckt. [C:\Users\dennis\source\repos\CSharp\NoWarn\NoWarn\NoWarn.csproj]
+C:\Users\dennis\source\repos\CSharp\NoWarn\NoWarn\NoWarnTests.cs(7,20): warning CS8618: Non-Nullable-Feld "_s" muss beim Beenden des Konstruktors einen Wert ungleich NULL enthalten. Erw„gen Sie eine Deklaration von "Feld" als Nullable. [C:\Users\dennis\source\repos\CSharp\NoWarn\NoWarn\NoWarn.csproj]
+C:\Users\dennis\source\repos\CSharp\NoWarn\NoWarn\NoWarnTests.cs(7,20): warning CS0169: Das Feld "NoWarnTests._s" wird nie verwendet. [C:\Users\dennis\source\repos\CSharp\NoWarn\NoWarn\NoWarn.csproj]
+  NoWarn -> C:\Users\dennis\source\repos\CSharp\NoWarn\NoWarn\bin\Release\net6.0\NoWarn.dll
+Testlauf fr "C:\Users\dennis\source\repos\CSharp\NoWarn\NoWarn\bin\Release\net6.0\NoWarn.dll" (.NETCoreApp,Version=v6.0)
+Microsoft (R) Testausfhrungs-Befehlszeilentool Version 17.0.0
+Copyright (c) Microsoft Corporation. Alle Rechte vorbehalten.
+
+Die Testausfhrung wird gestartet, bitte warten...
+Insgesamt 1 Testdateien stimmten mit dem angegebenen Muster berein.
+
+Bestanden!   : Fehler:     0, erfolgreich:     1, bersprungen:     0, gesamt:     1, Dauer: 48 ms - NoWarn.dll (net6.0)

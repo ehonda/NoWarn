@@ -1,0 +1,1 @@
+dotnet clean -c Release -v q --nologo; dotnet test -c Release | grep -o "[[:upper:]]\+[[:digit:]]\+" | tr '\n' , | sed 's/,$/\n/'

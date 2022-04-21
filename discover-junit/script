@@ -1,0 +1,11 @@
+#!/bin/bash
+
+LOG_INFORMATION="\e[35mInformation:\e[0m "
+UNMATCHABLE_FILTER="FullyQualifiedName=0"
+
+if [[ $(dotnet test -c Release --filter $UNMATCHABLE_FILTER -l "junit" > /dev/null 2>&1) ]]
+    then echo -e "$LOG_INFORMATION Using junit logger"; export WITH_JUNIT='-l "junit"'
+    else echo -e "$LOG_INFORMATION Not using junit logger"
+fi
+
+dotnet test -c Release -l "console;verbosity=detailed" "$WITH_JUNIT"

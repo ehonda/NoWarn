@@ -1,0 +1,3 @@
+#!/bin/bash
+
+dotnet remove NoWarn/NoWarn.csproj package JunitXml.TestLogger

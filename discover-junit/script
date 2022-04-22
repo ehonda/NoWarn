@@ -5,6 +5,8 @@ IFS=$'\n\t'
 LOG_INFORMATION="\e[35mInformation:\e[0m "
 UNMATCHABLE_FILTER="FullyQualifiedName=0"
 
+dotnet build -c Release
+
 # Detect JUNIT
 JUNIT_DETECTED=$(dotnet test -c Release --filter $UNMATCHABLE_FILTER -l "junit" > /dev/null 2>&1; echo $?)
 echo "$JUNIT_DETECTED"
